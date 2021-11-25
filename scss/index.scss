@@ -33,14 +33,13 @@ h2{
 }
 
 .logo{
-    width: 30vw;
+    width: 25vw;
     pointer-events: none;
 }
 
 span{
     display: inline;
 }
-
 
 ul{
     list-style: none;
@@ -58,3 +57,18 @@ a{
 li:hover{
     text-decoration: underline;
 }
+
+#hora, #fecha{
+  color: #b8bb26;
+}
+
+
+input{
+  color: #edbb2;
+  margin: 1rem;
+  // background-color: yellow;
+  min-width: 40vw;
+  border-radius: 5px;
+  background-color: #7c6f64;
+}
+

@@ -1,8 +1,7 @@
 * {
   color: #fbf1c7;
   font-family: "JetBrains Mono", monospace;
-  font-size: 12pt;
-}
+  font-size: 12pt; }
 
 body {
   width: 60%;
@@ -11,51 +10,44 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 h1 {
   color: #fabd2f;
   font-size: 2rem;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 h2 {
   color: #d79921;
   font-size: 1.5rem;
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
 .logo {
-  width: 30vw;
-  pointer-events: none;
-}
+  width: 25vw;
+  pointer-events: none; }
 
 span {
-  display: inline;
-}
+  display: inline; }
 
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 li {
-  padding-bottom: 0.3rem;
-}
+  padding-bottom: 0.3rem; }
 
 a {
   text-decoration: none;
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 li:hover {
-  text-decoration: underline;
-}/*# sourceMappingURL=index.css.map */
+  text-decoration: underline; }
 
-#fecha, #hora{
-  color: #8ec07c
-}
+#hora, #fecha {
+  color: #b8bb26; }
 
-.credits{
-  color: #83a598
-}
+input {
+  color: #edbb2;
+  margin: 1rem;
+  min-width: 40vw;
+  border-radius: 5px;
+  background-color: #7c6f64; }

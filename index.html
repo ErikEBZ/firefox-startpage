@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/index.css">
-    <title>~/Start_Page</title>
-</head>
-<body>
-    
-    <img class="logo" src="./logo.jpg" alt="Imagen logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./scss/index.css">
+        <title>~/Start_Page</title>
+    </head>
+    <body>
 
-    <h1>~/StartPage</h1>
-    
-    <p>Hoy es <span id="fecha">Fecha</span> y son las <span id="hora">hora</span> </p>
-    
-    <h2>~/Links</h2>
-    
-    <div class="container">
-        <ul>
+        <img class="logo" src="./logo.jpg" alt="Imagen logo">
 
-            <li>
-                <ion-icon name="logo-reddit"></ion-icon>
-                <a href="https://web.whatsapp.com/">WhatsApp</a>
-            </li>
-            <li>
-                <ion-icon name="mail-outline"></ion-icon>
-                <a href="https://mail.google.com/mail/u/0/">Gmail</a>
-            </li>
-            <li>
-                <ion-icon name="logo-reddit"></ion-icon>
-                <a href="https://youtube.com">YouTube</a>
-            </li>
-            <li>
-                <ion-icon name="logo-github"></ion-icon>
-                <a href="https://github.com/">GitHub</a>
-            </li>
-            <li>
-                <ion-icon name="logo-reddit"></ion-icon>
-                <a href="https://www.reddit.com/">Reddit</a>
-            </li>
-            
-        </ul>
-    </div>
-    
-    <p class="credits">Made with ❤ by ErikEBZ <a href="https://github.com/ErikEBZ"><ion-icon name="logo-github"></ion-icon></a></p>
+        <h1>~/StartPage</h1>
+        <form action="https://duckduckgo.com/" method="GET">
+            <input autofocus
+                   name="q"
+                   type="search"
+                   placeholder="Search with duckduckgo...">
+        </form>
 
-    <script type="text/javascript" src="./index.js"></script> 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+        <p>Hoy es <span id="fecha">Fecha</span> y son las <span id="hora">hora</span> </p>
+
+        <h2>~/Links</h2>
+
+        <div class="container">
+            <ul>
+
+                <li>
+                    <ion-icon name="logo-reddit"></ion-icon>
+                    <a href="https://web.whatsapp.com/">WhatsApp</a>
+                </li>
+                <li>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+                </li>
+                <li>
+                    <ion-icon name="logo-reddit"></ion-icon>
+                    <a href="https://youtube.com">YouTube</a>
+                </li>
+                <li>
+                    <ion-icon name="logo-github"></ion-icon>
+                    <a href="https://github.com/">GitHub</a>
+                </li>
+                <li>
+                    <ion-icon name="logo-reddit"></ion-icon>
+                    <a href="https://www.reddit.com/">Reddit</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <p class="credits">Made with ❤ by ErikEBZ <a href="https://github.com/ErikEBZ"><ion-icon name="logo-github"></ion-icon></a></p>
+
+        <script type="text/javascript" src="./index.js"></script> 
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
 </html>
