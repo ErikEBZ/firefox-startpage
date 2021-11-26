@@ -71,7 +71,7 @@ input{
     border-radius: 5px;
     background-color: #7c6f64;
     border: 0;
-    min-height: 1.2rem;
+    height: 1.2rem;
 }
 
 .credits{
